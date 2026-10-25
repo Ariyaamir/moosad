@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>افشاگری رئیس سابق موساد از عملیات‌های درون ایران و پیجرها</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #fcfbf9;
+      --paper-color: #ffffff;
+      --text-main: #1a1a1a;
+      --text-muted: #555555;
+      --accent: #8b0000;
+      --border-color: #222222;
+      --light-border: #e0e0e0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Vazirmatn', serif, sans-serif;
+      line-height: 1.8;
+      padding: 20px 10px;
+    }
+    .newspaper-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: var(--paper-color);
+      padding: 40px;
+      border: 1px solid #d3d3d3;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+    header {
+      text-align: center;
+      border-bottom: 4px double var(--border-color);
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .newspaper-title {
+      font-size: 3.2rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+      color: #000;
+      margin: 10px 0;
+      line-height: 1.1;
+    }
+    .sub-header {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 5px;
+    }
+    .headline {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 15px;
+      color: #000;
+      text-align: right;
+    }
+    .lead-paragraph {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid var(--light-border);
+    }
+    .meta-info {
+      display: flex;
+      gap: 20px;
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+    .article-body {
+      column-count: 2;
+      column-gap: 35px;
+      column-rule: 1px solid var(--light-border);
+      text-align: justify;
+      font-size: 1.05rem;
+    }
+    @media (max-width: 768px) {
+      .newspaper-container { padding: 20px; }
+      .newspaper-title { font-size: 2.2rem; }
+      .headline { font-size: 1.6rem; }
+      .article-body { column-count: 1; }
+    }
+    p { margin-bottom: 18px; }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin: 25px 0 12px 0;
+      break-after: avoid;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 4px;
+      display: inline-block;
+    }
+    blockquote {
+      background: #f8f9fa;
+      border-right: 4px solid var(--accent);
+      padding: 12px 18px;
+      margin: 20px 0;
+      font-weight: 600;
+      color: #222;
+      font-size: 1rem;
+      break-inside: avoid;
+    }
+    .inline-image-box {
+      margin: 20px 0;
+      text-align: center;
+      break-inside: avoid;
+    }
+    .inline-image-box img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      padding: 4px;
+      background: #fff;
+    }
+    .image-caption {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+    .editor-section {
+      margin-top: 40px;
+
+padding-top: 25px;
+      border-top: 3px double var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: #fbfbfb;
+      padding: 20px;
+      border-radius: 6px;
+    }
+    .editor-avatar {
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent);
+      flex-shrink: 0;
+    }
+    .editor-details h3 {
+      font-size: 1.1rem;
+      color: #000;
+      margin-bottom: 4px;
+    }
+    .editor-details p {
+      margin-bottom: 0;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: #888;
+      border-top: 1px solid var(--light-border);
+      padding-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="newspaper-container">
+    <header>
+      <div class="top-bar">
+        <span>گزارش اختصاصی بین‌الملل</span>
+        <span>منبع اصلی: Ynetnews</span>
+        <span>بازنشر و تحلیل</span>
+      </div>
+      <h1 class="newspaper-title">گزارش تحلیلی و امنیتی</h1>
+      <div class="sub-header">بررسی مفصل پرونده‌های اطلاعاتی و نظامی در خاورمیانه</div>
+    </header>
+
+    <main>
+      <h1 class="headline">افشاگری رئیس سابق موساد: نقشه‌های عملیاتی اسرائیل در ایران و ماجرای انفجار پیجرها</h1>
+      
+      <div class="lead-paragraph">
+        دیوید بارنیا فاش کرد که موساد برای حفاظت از عاملان خود در داخل ایران، اخبار عملیات را عمداً رسانه‌ای کرد تا دستگاه‌های امنیتی ایران دچار سردرگمی شوند. او همچنین ابعاد تازه‌ای از آزمایش‌ها و محاسبات پیش از انفجار پیجرهای حزب‌الله را تشریح کرد.
+      </div>
+
+      <div class="meta-info">
+        <span>منبع اصلی: Ynet</span>
+        <span>|</span>
+        <span>ویرایش: امیر حق شنو</span>
+      </div>
+
+      <div class="article-body">
+        <p>دیوید بارنیا، رئیس سابق موساد، زوایای تازه‌ای از جزئیات عملیات نظامی اسرائیل علیه ایران و همچنین مانور انفجار پیجرهای نیروهای حزب‌الله در لبنان را فاش ساخت. او توضیح داد که چگونه دستگاه اطلاعاتی اسرائیل برای حفاظت از نیروهای خود در داخل خاک ایران برنامه‌ریزی کرده بود و در دقایق پر استرس پیش از انفجار پیجرها چه گذشت.</p>
+
+        <p>بارنیا در جریان سخنرانی خود در اجلاس Priority Summit اظهار داشت که موساد در نخستین صبح از آغاز عملیات «شیر خروشان» در ژوئن ۲۰۲۵، ویدئویی رسمی از ماموریت‌های مأموران خود در داخل ایران منتشر کرد.</p>
+
+        <p>او تاکید کرد انتشار این ویدئو با آرم رسمی موساد، نه صرفاً برای مانور تبلیغاتی، بلکه اقدامی هدفمند برای سردرگم کردن دستگاه‌های امنیتی ایران و بازداشت‌های گسترده ناشی از هراس بود؛ امری که شناسایی عوامل اصلی را برای نیروهای اطلاعاتی ایران ناممکن می‌ساخت.</p>
+
+        <blockquote>
+          «می‌خواستیم موجی از بازداشت‌ها در ایران ایجاد شود تا تفکیک نیروهای واقعی از افراد بی‌گناه غیرممکن شود و در نهایت ناچار به آزادی همگان شوند؛ اتفاقی که دقیقاً رخ داد.»
+        </blockquote>
+
+        <p>به گفته بارنیا، مقامات ایرانی در روز دوم درگیری‌ها نزدیک به ۲۱ هزار نفر را بازداشت کردند. او افزود: «وقتی ۲۱ هزار نفر بازداشت می‌شوند، حتی اگر یک یا دو عامل واقعی هم میان آن‌ها باشد، در نهایت به دلیل شباهت روایت‌ها مجبور به آزادی همه خواهند شد.»</p>
+
+        <p>او همچنین اذعان کرد برخی افرادی که در ایران به جرم همکاری با موساد اعدام یا بازداشت شدند، هیچ ارتباطی با این سازمان نداشتند و افرادی بی‌گناه بودند که اشتباهاً شناسایی شده بودند.</p>
+
+        <h2>آگاهی عوامل عملیاتی هفته‌ها پیش از خلبانان</h2>
+
+        <p>رئيس سابق موساد به رازداری کم‌نظیر پیش از آغاز عملیات اشاره کرد و گفت حتی خلبانان اسرائیلی تا لحظات پایانی از ماهیت دقیق ماموریت خود بی‌خبر بودند، در حالی که ده‌ها مأمور موساد از هفته‌ها قبل در داخل ایران مستقر شده و از جزئیات کامل عملیات مطلع بودند.</p>
+
+        <p>بارنیا تاکید کرد شخصاً صلاحیت و قابلیت رازداری تک‌تک عوامل اعزامی را تأیید کرده و مسئولیت مستقیم امنیت آن‌ها را بر عهده داشته است.</p>
+
+        <h2>۱۰ دقیقه اضطراب: گفت‌وگو با نتانیاهو پیش از انفجار پیجرها</h2>
+
+        <p>بارنیا درباره عملیات سپتامبر ۲۰۲۴ و انفجار هم‌زمان هزاران پیجر نیروهای حزب‌الله گفت که ۱۰ دقیقه پیش از ساعت مقرر (۱۵:۳۰)، در اتاق فرماندهی زیرزمینی کنار بنیامین نتانیاهو و مقامات ارشد نظامی نشسته بود.</p>
+
+<p>نتانیاهو در آن لحظه از او پرسیده بود: «اگر عمل نکند چه می‌شود؟» و بارنیا پاسخ داده بود امکان ندارد عمل نکند، اما در ۱۰ دقیقه بعدی مدام به پاسخ خود و مسئولیت سنگین آن فکر می‌کرده است.</p>
+
+        <p>وی تاکید کرد که موساد صدها بار روی مانکن‌ها آزمایش انجام داده بود تا میزان مواد منفجره را به حداقل برساند و از آسیب به خانواده‌های نیروهای حزب‌الله جلوگیری کند، گرچه تیم‌های طراحی مدام هشدار می‌دادند که این کار کارایی عملیات را کاهش می‌دهد.</p>
+
+        <div class="inline-image-box">
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=" alt="دیوید بارنیا">
+          <div class="image-caption">دیوید بارنیا، رئیس سابق سازمان اطلاعات و عملیات ویژه اسرائیل (موساد)[span_0](start_span)[span_0](end_span)</div>
+        </div>
+
+        <h2>ارزیابی پیامدها و بازدارندگی ایران</h2>
+
+        <p>او اثرات عملیات پیجرها را در سه محور خلاصه کرد: آسیب فیزیکی مستقیم، فروپاشی روحیه رزمی حزب‌الله، و ایجاد ترس و عدم قطعیت دائمی.</p>
+
+        <p>در نهایت، بارنیا به وضعیت بازدارندگی پیش از حملات موشکی مستقیم ایران در سال ۲۰۲۴ اشاره کرد و پذیرفت که اسرائیل پیش از آن حملات، به دلیل عدم اطمینان از توان موشک‌های دوربرد ایران و کارایی پدافند خودی، دچار نوعی بازدارندگی شده بود، اما آن حملات محاسبات استراتژیک را تغییر داد.</p>
+      </div>
+    </main>
+
+    <div class="editor-section">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=" alt="امیر حق شنو" class="editor-avatar">
+      <div class="editor-details">
+        <h3>ویرایش: امیر حق شنو</h3>
+        <p>ترجمه روان مطبوعاتی، تنظیم ساختار روزنامه‌ای و بازبینی نهایی جهت انتشار روی GitHub Pages.</p>
+      </div>
+    </div>
+
+    <footer>
+      انتشار یافته در قالب تک‌صفحه‌ای وب | تمامی حقوق متن متعلق به منبع اصلی می‌باشد.
+    </footer>
+  </div>
+</body>
+</html>
